@@ -1,0 +1,69 @@
+body{
+	
+}
+@media
+#wrapper{
+	width: 90%;
+	margin: auto;
+}
+.header{
+	padding: 20px;
+	background-color: #B2F3EE;
+}
+
+h1{
+	text-align: center;
+}
+.sidebar{
+	float: left;
+	width: 20%;
+	background-color: #61ADA7;
+	height: 500px;
+}
+
+.main{
+	float: right;
+	width: 80%;
+	background-image: url("image/background.png");
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+img{
+	float: left;
+	margin: 10px;
+	height: 200px;
+	width: 200px;
+}
+
+@media screen and (max-width: 980px) {
+#wrapper {
+width: 95%;
+margin: auto;
+}
+.main {
+width: 70%;
+}
+.sidebar {
+width: 30%;
+}
+}
+
+@media screen and (max-width: 700px) {
+.main {
+width: auto;
+float: none;
+}
+
+.sidebar {
+width: auto;
+float: none;
+height: 100px;
+}
+
+.sml{
+width: 150px;
+height: 150px;
+}
+}
